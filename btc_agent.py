@@ -64,7 +64,7 @@ def store_in_supabase(price):
         data = {
             "price": price,
             "currency": "USD",
-            "created_at": current_time
+            "timestamp": current_time
         }
         
         # Insert data into your table (replace 'bitcoin_prices' with your actual table name)

@@ -1,1 +1,4 @@
+python-dotenv
 requests
+supabase
+huggingface-hub
